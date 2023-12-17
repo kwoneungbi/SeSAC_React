@@ -14,9 +14,9 @@ const Hello = ({
 }: PropsWithChildren<Props>) => {
   return (
     <>
-      <h4>
+      <h2>
         Hello, {name}({age})
-      </h4>
+      </h2>
       {children}
       <button onClick={plusCount}>count + 1</button>
     </>
